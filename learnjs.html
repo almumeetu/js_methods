@@ -1,0 +1,197 @@
+<!-- To access an HTML element, JavaScript can use the document.getElementById(id) method. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+
+<body>
+
+    <!-- Variable declear -->
+
+    <script>
+        var name = "Saikat";
+        document.write(name);
+        name = "Shihab";
+        document.write(name);
+
+        var name_2;
+        var age;
+        
+        name_2 = "Apon";
+        age = 8;
+        document.write(name_2);
+        document.write(age);
+
+
+        var country,nationlity,proffesion;
+        
+        country = "Germany";
+        nationlity = "Bangladesh";
+        proffesion = "Student";
+        document.write(proffesion);
+        document.write(nationlity);
+        window.alert(country);
+        // toString
+var num = 30;
+
+num = toString(num);
+
+console.log(typeof (num)) ;
+
+
+// typeof
+var letter = "fisherman";
+
+console.log(typeof (letter));
+
+
+// parseInt
+var age = "95";
+
+age = parseInt(age);
+
+console.log(typeof (age));
+
+
+// perseFloat
+var avarage = "89.09";
+
+avarage = parseFloat(avarage);
+
+console.log(typeof (avarage));
+
+
+// toFixed
+var numbers = 4.987790;
+
+console.log(numbers.toFixed (3));
+
+
+// toPrecision
+console.log(numbers.toPrecision(2));
+
+
+// Number method
+console.log(Number("12"));
+
+console.log(typeof (Number(30)));
+
+
+    // True/False
+
+    console.log(Number(true));
+
+    console.log(Number(false));
+
+
+
+
+
+
+// Concatenate
+
+document.write("Saikat" + " Shihab" + " Shakkor </br>")
+
+var firstName = "Saikat";
+var lastName = " Shihab </br>";
+
+var fulName = firstName + lastName;
+
+
+document.write(fulName); 
+
+document.write("My Name is " + fulName);
+
+
+var num1 = 20;
+var num2 = 30;
+
+document.write("Num1 = " + num1 + " and Num2 = " + num2);
+
+
+
+// String Length
+
+var text = "Bangladesh";
+
+var len = text.length;
+
+document.write("</br> Number of Character" + len);
+
+
+document.write("</br> Number of Character" + text.length);
+
+    // prompt
+
+    var text = prompt("Enter your name : ");
+
+    document.write("</br> Number of Character " + text.length)
+
+
+    // charAt
+
+    var text = "Saikat ";
+
+    document.write( text.charAt (2))
+
+
+    // toUpperCase, toLowerCase
+
+    var text = "Saikat </br>";
+
+    document.write( text.toUpperCase());
+
+    var text2 = "SAIKAT </br>";
+
+    document.write( text.toLowerCase());
+
+
+
+    // concat
+
+    var text3 = "Bangladesh";
+
+    var text4 = "is a very beautiful country </br>";
+
+    document.write(text3.concat(text4));
+
+    // slice
+    var text = "India";
+
+    var text2 = text.slice (1, 3);
+
+    document.write(text2);
+
+
+for(var x = 0; x < 5; x++ ){
+    document.write(" * ");
+}
+
+switch
+(fruits) {
+  
+case
+ "Banana":
+    alert("Hello")
+    break;
+  
+case
+ "Apple":
+    alert("Welcome")
+    break;    
+}
+console.log( fruits );
+        
+    </script>
+
+</body>
+
+</html>

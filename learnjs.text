@@ -1,0 +1,231 @@
+JavaScript is the world's most popular Programming language.
+
+JavaScript was invented by Brendan Eich in 1995.
+
+And became an ECMA Standard in 1997.
+
+The Standard official name is "ECMA-262".
+
+The language official name is "ECMAScript"
+
+'ECMA' means "European Computer Manufacturers Association." 
+
+JavaScript is one of the 3 languages all web developers must learn:
+HTML, CSS, JavaScript.
+
+
+
+// INTRODUCTION
+
+         1.JavaScript can change HTML content.
+
+         JavaScript HTML methodes is---  getElementById()
+
+         Document.getElementById("demo").innerHTML = "Hello JavaScript";
+
+
+         2.JavaScript can change HTML attribute Values.
+
+         Document.getElementById('demo').src='';
+
+
+         3.JavaScript can change HTML style CSS.
+
+         Document.getElementById('demo').style.fontSize ='50px';
+
+
+         4.JavaScript can hide and show HTML elements.
+
+         Document.getElementById('demo').style.display ='none';
+
+         Document.getElementById('demo').style.display ='block';
+
+
+
+
+// Where To
+
+      In HTML, JavaScript code is inserted between <script> and </script> tags.
+
+      <script>
+         document.getElementById("demo").innerHTML = "My First JavaScript";
+      </script>
+
+     // External JavaScript
+
+     function myFunction() {
+        document.getElementById("demo").innerHTML = "Paragraph changed.";
+      }
+
+
+      JavaScript use an External script, put the name of the script file in the src (source) attribute of a <script> tag .
+
+        Ex:<script src="myScript.js"></script>
+
+
+
+// JavaScript Output
+
+JavaScript can "display" data in different ways:
+
+    Writing into an HTML element, using "innerHTML".
+
+    Writing into the HTML output using "document.write()".
+
+    Writing into an alert box, using "window.alert()".
+    
+    Writing into the browser console, using "console.log()".
+
+
+JavaScript does not have any print object or print methodes.
+
+The only exception is that you can call the " window.print()" method in the browser to print the content of the current window.
+
+
+# JavaScript Statements
+
+A computer program is a list of "instructions" to be "executed" by a computer.
+
+      In a programming language, these programming instructions are called "statements".
+
+
+JavaScript statements are composed of:
+
+     " Values, Operators, Expressions, Keywords, and Comments."
+
+
+JavaScript programs (and JavaScript statements) are often called JavaScript code.
+
+Semicolons separate JavaScript statements.
+
+JavaScript statements can be grouped together in code blocks, inside curly brackets {...}.
+
+         Ex: function myFunction() {
+               document.getElementById("demo1").innerHTML = "Hello Dolly!";
+               document.getElementById("demo2").innerHTML = "How are you?";
+            }
+
+
+// JavaScript Keywords
+
+      " Var, let, const, if, switch, for, function, return, try etc."
+
+
+// JavaScript Values
+
+JavaScript identifiers are "case-sensitive".
+
+The JavaScript syntax defines two types of values:
+
+1. Fixed values
+
+      Fixed values are called  "Literals".
+
+      The two most important syntax rules for fixed values are:
+
+      1. Numbers ; ( Numbers are written with or without decimals)
+      2. Strings ; ( Strings are text, written within double or single quotes)
+
+
+2. Variable values
+
+      Variable values are called "Variables".
+
+
+ // JavaScript Variables
+
+      In a programming language, variables are used to "store data values".
+
+      JavaScript uses the keywords "var, let and const" to declare variables.
+
+      An equal sign is used to "assign values" to variables.
+
+      The var keyword is used in all JavaScript code from 1995 to 2015.
+      
+      The let and const keywords were added to JavaScript in 2015.
+      
+      If you want your code to run in older browsers, you must use "var".
+
+
+
+
+If you want a general rule: always declare variables with const.
+
+If you think the value of the variable can change, use let.
+
+In this example, price1, price2, and total, are variables:
+
+            ex:<script>
+            const price1 = 5;
+            const price2 = 6;
+            let total = price1 + price2;
+            document.getElementById("demo").innerHTML =
+            "The total is: " + total;
+            </script>
+
+            The two variables price1 and price2 are declared with the "const" keyword.
+
+            These are constant values and cannot be changed.
+
+            The variable total is declared with the "let" keyword.
+
+            This is a value that can be changed.
+            
+
+
+
+
+
+
+
+
+# /// LEARN WITH ANISUL ISLAM
+
+Output:
+
+JavaScript displays output in 3 ways:
+
+1. alert();
+
+2. document.write();
+
+3. console.log();
+
+
+
+Data Types:
+
+1. Strings-
+
+      ex:"Bangladesh", "I love Bangladesh.", 'country';
+
+
+2. Numbers-
+
+      ex: 3 , 30.4, 4000005 ;
+
+
+3. Boolean-
+
+      ex: "true", "false";
+
+
+4. objects-
+
+
+
+
+# JavaScript Variables
+
+Varable names can only contain letters, numbers, underscores, or dollar signs.
+
+            A-Z    a-z    0-9    _     $
+
+Varable names must begin with a letter, an underscore (_) or a dollar sign ($).
+
+variable names cannot contain spaces.
+
+Reserves words (like javaScript Keywords) cannot be used as names .
+
+Variable names are case sensitive
+
